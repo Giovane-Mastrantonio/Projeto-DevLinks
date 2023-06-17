@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- lang determina a lingua padrão do conteúdo na página -->
+<html lang="pt-br" class="">  
+  <!-- light -->
+  <!-- head ajusta configurações que não aparecem no documento -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- charset define o conjunto de caracteres que serão utilzados no documento, aceitando caracteres como ç e com ~ sem erro -->
+    <meta charset="UTF-8" />
+    <!-- o http-equiv cria uma compatibilidade com os navegadores mais antigos -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- name = viewport define a área em que o texto "body" irá se ajustar se o tamanho do navegador for ajustado ou utilizado zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Imagem de Giovane com sorriso discreto usando óculos preto e camisa vermelha e fundo amarelo"
+        />
+        <p>@mastrantonio</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">Inscrever-se no NLW</a>
+        </li>
+        <li>
+          <a href="#">Baixar meu e-book</a>
+        </li>
+        <li>
+          <a href="#">Ver meu portfólio</a>
+        </li>
+        <li>
+          <a href="https://www.mastrantonio.com.br" target="_blank"
+            >Conheça o Projeto</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://www.github.com" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com tecnologia
+        <a href="https://www.mastrantonio.com.br" target="_blank"
+          >Mastrantonio</a
+        >
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
